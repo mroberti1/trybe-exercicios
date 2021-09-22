@@ -20,7 +20,7 @@ for (let key in pizzas) {
 
   //console.log(pizzas.sabor);// chamar por dot notation (pizzas.preco ou .sabor ou . bordaCatupiry)
   
-  //console.log(pizzas['bordaCatupiry']);//Objeto pizzas e nos colchetes ['sabor'] e com 'aspas' passar o nome da propriedade
+  console.log(pizzas['bordaCatupiry']);//Objeto pizzas e nos colchetes ['sabor'] e com 'aspas' passar o nome da propriedade
 
   //console.log(pizzas[key]); //passa em todas as propriedades e printa o valor delas, for in dentro de objetos
 }
@@ -30,7 +30,7 @@ for (let key in pizzas) {
 let pizzasDoces = ['chocolate', 'banana', 'morango'];
 
 for (let key in pizzasDoces) {
-  //console.log(key); // mostra as três chaves, que são a posiçnao do Array
+  //console.log(key); // mostra as três chaves, que são a posição do Array
 
   //console.log(pizzasDoces);//var pizzasDoces, mostra 3 vezes os valores
 
